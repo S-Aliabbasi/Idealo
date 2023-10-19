@@ -56,23 +56,24 @@
   width: 6rem;
   border-radius: 8%;
 }
-.Anmelden-btn2 {
-  margin: 1rem;
+.grid-item {
+  text-align: left;
+  margin: 1px;
   background-color: #085daa;
   border-color: aliceblue;
   border-width: 0.1rem;
   border-radius: 5%;
   font-size: 14px;
   height: 2.1rem;
-
   padding: 4px;
   color: aliceblue;
 }
 .grid-container {
+  width: 100%;
+  text-align: center;
   display: grid;
   column-gap: 5px;
-  grid-template-columns: 50% 50%;
-  background-color: yellow;
-  padding: 0px;
-  /* margin: 0%; */
+  grid-template-columns: auto auto auto auto;
+  padding: 0;
+  margin: 0;
 }
